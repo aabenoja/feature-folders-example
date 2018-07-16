@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
+using FeatureFoldersExample.Features.Shared;
 using Microsoft.AspNetCore.Mvc;
-using FeatureFoldersExample.Models;
 
-namespace FeatureFoldersExample.Controllers
+namespace FeatureFoldersExample.Features.Home
 {
     public class HomeController : Controller
     {

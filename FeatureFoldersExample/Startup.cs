@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using JetBrains.Annotations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+[assembly: AspMvcViewLocationFormat(@"~\Features\{1}\{0}.cshtml")]
+[assembly: AspMvcViewLocationFormat(@"~\Features\{0}.cshtml")]
+[assembly: AspMvcViewLocationFormat(@"~\Features\Shared\{0}.cshtml")]
 namespace FeatureFoldersExample
 {
     public class Startup

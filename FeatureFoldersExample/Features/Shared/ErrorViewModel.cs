@@ -1,6 +1,4 @@
-using System;
-
-namespace FeatureFoldersExample.Models
+namespace FeatureFoldersExample.Features.Shared
 {
     public class ErrorViewModel
     {
